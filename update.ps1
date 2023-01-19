@@ -10,7 +10,7 @@ echo "[-] Removed the old files"
 
 wget https://cve.mitre.org/data/downloads/allitems.csv -O allCVEs2022.csv
 
-wget https://raw.githubusercontent.com/offensive-security/exploitdb/master/files_exploits.csv -O files_exploits.csv
+wget https://gitlab.com/exploit-database/exploitdb/-/raw/main/files_exploits.csv?inline=false -O files_exploits.csv
 
 wget https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv -O known_exploited_vulnerabilities.csv
 
